@@ -1,0 +1,14 @@
+{
+  "name": "Bisquit Express",
+  "description": "Accelerated bisque firing — suitable for thin-walled pieces and pre-dried greenware only",
+  "points": [
+    { "time": "00:00", "temperature": 30, "stage": "Start of firing" },
+    { "time": "03:00", "temperature": 500, "stage": "Fast ramp" },
+    { "time": "04:00", "temperature": 600, "stage": "Quartz inversion zone" },
+    { "time": "05:00", "temperature": 850, "stage": "Bisque maturity" },
+    { "time": "05:15", "temperature": 850, "stage": "Soaking" },
+    { "time": "06:00", "temperature": 600, "stage": "Controlled cooling" },
+    { "time": "07:00", "temperature": 500, "stage": "Quartz inversion cooldown" },
+    { "time": "08:00", "temperature": 30, "stage": "End of firing" }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "name": "Raku",
+  "description": "Rapid raku firing — pieces are removed at peak temperature for reduction in combustible material",
+  "points": [
+    { "time": "00:00", "temperature": 30, "stage": "Start of firing" },
+    { "time": "00:30", "temperature": 300, "stage": "Fast ramp" },
+    { "time": "01:00", "temperature": 600, "stage": "Rapid heating" },
+    { "time": "01:30", "temperature": 900, "stage": "Near maturity" },
+    { "time": "01:45", "temperature": 1000, "stage": "Raku pull temperature" },
+    { "time": "02:00", "temperature": 1000, "stage": "Soaking — watch for glaze melt" },
+    { "time": "02:30", "temperature": 500, "stage": "Cooling (if not pulled)" },
+    { "time": "03:00", "temperature": 30, "stage": "End of firing" }
+  ]
+}

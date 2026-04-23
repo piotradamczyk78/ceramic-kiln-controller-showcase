@@ -1,0 +1,12 @@
+{
+  "name": "Glazing Express",
+  "description": "Rapid glaze firing — use only for small loads and compatible glazes",
+  "points": [
+    { "time": "00:00", "temperature": 30, "stage": "Start of firing" },
+    { "time": "02:00", "temperature": 1000, "stage": "Fast ramp" },
+    { "time": "02:15", "temperature": 1050, "stage": "Glaze maturity" },
+    { "time": "02:30", "temperature": 1050, "stage": "Soaking" },
+    { "time": "03:00", "temperature": 850, "stage": "Glaze setting" },
+    { "time": "04:00", "temperature": 30, "stage": "End of firing" }
+  ]
+}
