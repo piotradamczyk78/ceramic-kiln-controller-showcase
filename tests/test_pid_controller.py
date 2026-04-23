@@ -47,10 +47,13 @@ class TestPIDController:
 
     def test_setpoint_update(self):
         """Setpoint can be changed between compute() calls."""
+        import time
+
         pid = PIDController(kp=1.0, ki=0.0, kd=0.0, setpoint=100.0, output_limits=(0, 1000))
 
         out1 = pid.compute(50.0)  # error = 50
         pid.setpoint = 200.0
+        time.sleep(0.01)  # simple-pid requires non-zero dt between calls
         out2 = pid.compute(50.0)  # error = 150
         assert out2 > out1
 
