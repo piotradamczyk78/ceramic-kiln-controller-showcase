@@ -1,0 +1,56 @@
+# GPIO pin assignments
+gpio:
+  # Zero-cross detection and TRIAC control
+  zero_cross_pin: 17
+  triac_pin: 18
+
+  # HX711 load cell ADC
+  hx711:
+    dout_pin: 5
+    pd_sck_pin: 6
+
+  # MAX31855 thermocouple (SPI bus 0, CE1)
+  max31855:
+    spi_bus: 0
+    spi_device: 1
+
+  # SHT31-D temperature/humidity (I2C)
+  i2c:
+    scl_pin: 3
+    sda_pin: 2
+
+# AC mains power parameters
+power:
+  frequency_hz: 50
+  half_cycle_time: 0.01  # seconds (10 ms for 50 Hz)
+
+# Sensor-specific configuration
+sensors:
+  hx711:
+    gain: 128
+    calibration_weight: 100.0  # grams
+
+  max31855:
+    spi_speed_hz: 5000000
+    update_interval: 1.0  # seconds
+    corrections:
+      300: 0.0
+      500: 0.0
+
+  sht31:
+    heater_enabled: false
+    update_interval: 2.0  # seconds
+
+  pzem:
+    uart_port: "/dev/ttyAMA0"
+    baudrate: 9600
+    modbus_address: 1
+    update_interval: 1.0  # seconds
+
+# PID controller tuning
+pid:
+  kp: 320
+  ki: 160
+  kd: 8
+  output_min: 0
+  output_max: 500  # ms — maximum TRIAC on-time per half-cycle
