@@ -1,0 +1,21 @@
+{
+  "name": "Stoneware",
+  "description": "High-fire stoneware to cone 7 — produces dense, vitrified body suitable for functional ware",
+  "points": [
+    { "time": "00:00", "temperature": 30, "stage": "Start of firing" },
+    { "time": "02:00", "temperature": 200, "stage": "Water smoking" },
+    { "time": "03:00", "temperature": 300, "stage": "Slow ramp" },
+    { "time": "04:00", "temperature": 400, "stage": "Organic burnout" },
+    { "time": "05:00", "temperature": 500, "stage": "Carbon burnout" },
+    { "time": "06:00", "temperature": 600, "stage": "Quartz inversion zone" },
+    { "time": "07:00", "temperature": 700, "stage": "Sintering begins" },
+    { "time": "08:00", "temperature": 800, "stage": "Body tightening" },
+    { "time": "09:00", "temperature": 900, "stage": "Vitrification" },
+    { "time": "10:00", "temperature": 1000, "stage": "Final ramp" },
+    { "time": "11:00", "temperature": 1100, "stage": "Near maturity" },
+    { "time": "12:00", "temperature": 1200, "stage": "Cone 7 approach" },
+    { "time": "12:30", "temperature": 1250, "stage": "Stoneware maturity" },
+    { "time": "13:00", "temperature": 1250, "stage": "Soaking" },
+    { "time": "14:00", "temperature": 30, "stage": "End of firing" }
+  ]
+}

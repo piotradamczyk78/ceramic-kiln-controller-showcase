@@ -1,0 +1,11 @@
+{
+  "name": "Drying",
+  "description": "Low-temperature drying cycle to remove residual moisture before bisque firing",
+  "points": [
+    { "time": "00:00", "temperature": 30, "stage": "Start of drying" },
+    { "time": "01:00", "temperature": 100, "stage": "Evaporation" },
+    { "time": "02:00", "temperature": 200, "stage": "Maximum drying temperature" },
+    { "time": "02:30", "temperature": 150, "stage": "Cooling" },
+    { "time": "03:00", "temperature": 30, "stage": "End of drying" }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "name": "Bisquit",
+  "description": "Standard bisque firing — slow initial ramp through water smoking (200°C) to burn out organics before reaching cone 010 maturity",
+  "points": [
+    { "time": "00:00", "temperature": 30, "stage": "Start of firing" },
+    { "time": "03:00", "temperature": 200, "stage": "Water smoking" },
+    { "time": "04:00", "temperature": 400, "stage": "Organic burnout" },
+    { "time": "05:00", "temperature": 500, "stage": "Carbon burnout" },
+    { "time": "06:00", "temperature": 600, "stage": "Quartz inversion zone" },
+    { "time": "07:00", "temperature": 850, "stage": "Bisque maturity" },
+    { "time": "07:15", "temperature": 850, "stage": "Soaking" },
+    { "time": "08:00", "temperature": 600, "stage": "Controlled cooling" },
+    { "time": "09:00", "temperature": 500, "stage": "Quartz inversion cooldown" },
+    { "time": "10:00", "temperature": 200, "stage": "Slow cooling" },
+    { "time": "11:00", "temperature": 30, "stage": "End of firing" }
+  ]
+}

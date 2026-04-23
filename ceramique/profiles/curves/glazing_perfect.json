@@ -1,0 +1,18 @@
+{
+  "name": "Glazing Perfect",
+  "description": "Slow glaze firing with gradual ramp — produces the most even glaze surface and fewest defects",
+  "points": [
+    { "time": "00:00", "temperature": 30, "stage": "Start of firing" },
+    { "time": "01:00", "temperature": 200, "stage": "Initial heating" },
+    { "time": "02:00", "temperature": 500, "stage": "Glaze dehydration" },
+    { "time": "03:00", "temperature": 600, "stage": "Quartz inversion zone" },
+    { "time": "04:00", "temperature": 750, "stage": "Pre-melt" },
+    { "time": "05:00", "temperature": 900, "stage": "Glaze softening" },
+    { "time": "06:00", "temperature": 1050, "stage": "Glaze maturity" },
+    { "time": "06:15", "temperature": 1050, "stage": "Soaking" },
+    { "time": "07:00", "temperature": 850, "stage": "Glaze setting" },
+    { "time": "08:00", "temperature": 600, "stage": "Controlled cooling" },
+    { "time": "09:00", "temperature": 500, "stage": "Quartz inversion cooldown" },
+    { "time": "10:00", "temperature": 30, "stage": "End of firing" }
+  ]
+}

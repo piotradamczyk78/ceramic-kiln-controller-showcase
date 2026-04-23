@@ -1,0 +1,19 @@
+{
+  "name": "Earthenware",
+  "description": "Full earthenware firing to cone 02 — produces vitrified, water-resistant body",
+  "points": [
+    { "time": "00:00", "temperature": 30, "stage": "Start of firing" },
+    { "time": "01:00", "temperature": 200, "stage": "Water smoking" },
+    { "time": "02:00", "temperature": 500, "stage": "Organic burnout" },
+    { "time": "03:00", "temperature": 800, "stage": "Carbon burnout" },
+    { "time": "04:00", "temperature": 1000, "stage": "Sintering" },
+    { "time": "05:00", "temperature": 1100, "stage": "Earthenware maturity" },
+    { "time": "05:30", "temperature": 1100, "stage": "Soaking" },
+    { "time": "06:00", "temperature": 1000, "stage": "Initial cooling" },
+    { "time": "07:00", "temperature": 800, "stage": "Controlled cooling" },
+    { "time": "08:00", "temperature": 600, "stage": "Quartz inversion zone" },
+    { "time": "09:00", "temperature": 400, "stage": "Slow cooling" },
+    { "time": "10:00", "temperature": 200, "stage": "Final cooling" },
+    { "time": "11:00", "temperature": 30, "stage": "End of firing" }
+  ]
+}

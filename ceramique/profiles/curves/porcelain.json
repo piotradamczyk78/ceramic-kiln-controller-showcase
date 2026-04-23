@@ -1,0 +1,21 @@
+{
+  "name": "Porcelain",
+  "description": "Very slow porcelain firing to cone 10 — extremely gradual ramp and cooling to prevent thermal shock in translucent bodies",
+  "points": [
+    { "time": "00:00", "temperature": 30, "stage": "Start of firing" },
+    { "time": "02:00", "temperature": 200, "stage": "Water smoking" },
+    { "time": "04:00", "temperature": 500, "stage": "Organic burnout" },
+    { "time": "06:00", "temperature": 600, "stage": "Quartz inversion zone" },
+    { "time": "08:00", "temperature": 800, "stage": "Carbon burnout" },
+    { "time": "10:00", "temperature": 1000, "stage": "Sintering" },
+    { "time": "12:00", "temperature": 1200, "stage": "Near maturity" },
+    { "time": "13:00", "temperature": 1300, "stage": "Porcelain maturity" },
+    { "time": "13:30", "temperature": 1300, "stage": "Soaking" },
+    { "time": "15:00", "temperature": 1100, "stage": "Initial cooling" },
+    { "time": "17:00", "temperature": 800, "stage": "Controlled cooling" },
+    { "time": "19:00", "temperature": 573, "stage": "Quartz inversion cooldown" },
+    { "time": "20:00", "temperature": 400, "stage": "Slow cooling" },
+    { "time": "21:00", "temperature": 200, "stage": "Final cooling" },
+    { "time": "22:00", "temperature": 30, "stage": "End of firing" }
+  ]
+}
