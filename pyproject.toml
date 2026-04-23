@@ -1,0 +1,45 @@
+[build-system]
+requires = ["setuptools>=68.0", "wheel"]
+build-backend = "setuptools.backends._legacy:_Backend"
+
+[project]
+name = "ceramique"
+version = "0.1.0"
+description = "Raspberry Pi ceramic kiln controller — multi-sensor monitoring, PID temperature control, TRIAC phase-angle power management"
+readme = "README.md"
+license = "MIT"
+requires-python = ">=3.11"
+authors = [
+    { name = "Piotr Adamczyk" },
+]
+
+dependencies = [
+    "PyYAML>=6.0",
+    "pymodbus>=3.6",
+    "simple-pid>=2.0",
+    "matplotlib>=3.8",
+]
+
+[project.optional-dependencies]
+rpi = [
+    "spidev>=3.6",
+    "RPi.GPIO>=0.7",
+    "lgpio>=0.2",
+    "adafruit-blinka>=8.0",
+    "adafruit-circuitpython-sht31d>=2.3",
+]
+dev = [
+    "pytest>=7.0",
+    "debugpy>=1.8",
+    "black>=23.0",
+]
+
+[tool.setuptools.packages.find]
+include = ["ceramique*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+
+[tool.black]
+line-length = 100
+target-version = ["py311"]
